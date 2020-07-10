@@ -116,6 +116,12 @@ p {
     padding-top: 4%;
 }
 
+#middle button{
+    font-family:'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 25%;
+}
+
 .point, .cpu, .office, .talk{
     width: 40%;
     margin: 4%;
@@ -123,6 +129,12 @@ p {
     border-bottom: dotted gray 5px;
     display: flex;
     align-items: flex-start;
+}
+
+.button{
+    border: solid black 2px;
+    padding: 3% 7%;
+    border-radius: 12px;
 }
 
 .bottom-content {
