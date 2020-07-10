@@ -92,7 +92,7 @@ p {
 
 .about{
     margin-bottom: 5%;
-    border-bottom: dotted grey 5px;
+    border-bottom: dashed grey 2px;
     padding-bottom: 3%;
 }
 
@@ -100,7 +100,6 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 
 #middle div{
@@ -116,17 +115,11 @@ p {
     padding-top: 4%;
 }
 
-#middle button{
-    font-family:'Roboto', sans-serif;
-    background-color: white;
-    border-radius: 25%;
-}
-
 .point, .cpu, .office, .talk{
     width: 40%;
     margin: 4%;
     padding-bottom: 4%;
-    border-bottom: dotted gray 5px;
+    border-bottom: dashed gray 2px;
     display: flex;
     align-items: flex-start;
 }
