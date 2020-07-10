@@ -90,26 +90,40 @@ p {
     margin: 0 auto;
 }
 
+.about{
+    margin-bottom: 5%;
+    border-bottom: dotted grey 5px;
+    padding-bottom: 3%;
+}
+
 #middle{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
+
+
 
 #middle div{
     display: flex;
     flex-direction: column;
 }
 
-.point{
-    width: 30%;
+#middle p{
+    padding-bottom: 4%;
 }
 
-.cpu{
-    width: 30%;
-    margin: 5%;
+#middle h2{
+    padding-top: 4%;
 }
 
+.point, .cpu, .office, .talk{
+    width: 40%;
+    margin: 4%;
+    padding-bottom: 4%;
+    border-bottom: dotted gray 5px;
+    display: flex;
+    align-items: flex-start;
+}
 
 .bottom-content {
     display: flex;
@@ -142,4 +156,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.bot p{
+    padding-bottom: 3%;
 }
